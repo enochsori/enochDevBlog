@@ -11,15 +11,15 @@ body {
 
   width: 100vw;
   height: 100vh;
-
-  /* tailwind css syntax */
-  @apply flex flex-col items-center;
+  border: 1px solid white /* tailwind css syntax */ @apply flex flex-col
+    items-center;
   @apply bg-zinc-900 text-gray-50;
 }
 
 #root {
   /* width full but has max width */
-  @apply w-full max-w-screen-2xl;
+  /* @apply w-full max-w-screen-2xl; */
+  @apply w-full;
 }
 
 h1 {
